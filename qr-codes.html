@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QR codes — Laurent Costa</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f3f1ec; color: #171717; }
+    main { max-width: 980px; margin: 0 auto; padding: 28px; }
+    h1 { margin-bottom: 6px; }
+    p { color: #555; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; margin-top: 24px; }
+    .card { background: white; border-radius: 22px; padding: 18px; text-align: center; box-shadow: 0 12px 35px rgba(0,0,0,.10); }
+    img { width: 100%; max-width: 260px; }
+    h2 { font-size: 19px; }
+    @media print { body { background: white; } .card { box-shadow: none; border: 1px solid #ddd; break-inside: avoid; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>QR codes — Laurent Costa</h1>
+  <p>Page pratique pour afficher ou imprimer les QR codes.</p>
+  <section class="grid">
+    <div class="card"><h2>Ajouter aux contacts</h2><img src="assets/qr_ajouter_contact.png" alt="QR contact"><p>Scannez pour enregistrer mes coordonnées.</p></div>
+    <div class="card"><h2>LinkedIn</h2><img src="assets/qr_linkedin.png" alt="QR LinkedIn"><p>Scannez pour ouvrir mon profil LinkedIn.</p></div>
+    <div class="card"><h2>Applications</h2><img src="assets/qr_applications.png" alt="QR applications"><p>Scannez pour accéder à mes applications.</p></div>
+    <div class="card"><h2>Carte virtuelle</h2><img src="assets/qr_carte_a_generer.png" alt="QR carte à générer"><p>À finaliser après mise en ligne de la carte.</p></div>
+  </section>
+</main>
+</body>
+</html>
