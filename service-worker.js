@@ -1498,36 +1498,36 @@ let showingDetails=false;let lastData=null;let dinoGameInitialized=false;functio
           <h1>
             <span>Ce site est inaccessible</span>
           </h1>
-          <!--?lit$981026426$-->
-            <p>Il se peut que la page Web à l'adresse <strong>https://chatgpt.com/backend-api/estuary/content?id=file_00000000621c71f5873a5130bb2244be&amp;fn=service-worker.js&amp;cd=attachment&amp;ts=494964&amp;p=fs&amp;cid=1&amp;sig=4328ef2834a2994e570b395a98c7255149259d91d741a5027c9a96f6204144bd&amp;v=0</strong> soit temporairement inaccessible ou qu'elle ait été déplacée de façon permanente à une autre adresse Web.</p>
+          <!--?lit$408841296$-->
+            <p>Il se peut que la page Web à l'adresse <strong>https://chatgpt.com/backend-api/estuary/content?id=file_000000000b1871f482b23d2b59ae836c&amp;fn=service-worker%281%29.js&amp;cd=attachment&amp;ts=494969&amp;p=fs&amp;cid=1&amp;sig=77cdc3654069080eecc8ae632cee2d29b1d8b4e9e6f9ead7762610df271efaf5&amp;v=0</strong> soit temporairement inaccessible ou qu'elle ait été déplacée de façon permanente à une autre adresse Web.</p>
           
 
-          <!--?lit$981026426$-->
+          <!--?lit$408841296$-->
 
-          <div class="error-code"><!--?lit$981026426$-->ERR_INVALID_RESPONSE</div>
+          <div class="error-code"><!--?lit$408841296$-->ERR_INVALID_RESPONSE</div>
 
-          <!--?lit$981026426$-->
+          <!--?lit$408841296$-->
         </div>
       </div>
       <div id="buttons" class="nav-wrapper suggested-left">
         <div id="control-buttons" hidden="">
-          <!--?lit$981026426$-->
-          <!--?lit$981026426$-->
+          <!--?lit$408841296$-->
+          <!--?lit$408841296$-->
         </div>
-        <!--?lit$981026426$-->
+        <!--?lit$408841296$-->
       </div>
-      <!--?lit$981026426$-->
+      <!--?lit$408841296$-->
         <div id="details">
-          <!--?lit$981026426$-->
+          <!--?lit$408841296$-->
         </div>
       
     </div>
-    <!--?lit$981026426$-->
+    <!--?lit$408841296$-->
       <div id="sub-frame-error">
         <!-- Show details when hovering over the icon, in case the details are
              hidden because they're too large. -->
         <div class="icon "></div>
-        <div id="sub-frame-error-details">Il se peut que la page Web à l'adresse <strong>https://chatgpt.com/backend-api/estuary/content?id=file_00000000621c71f5873a5130bb2244be&amp;fn=service-worker.js&amp;cd=attachment&amp;ts=494964&amp;p=fs&amp;cid=1&amp;sig=4328ef2834a2994e570b395a98c7255149259d91d741a5027c9a96f6204144bd&amp;v=0</strong> soit temporairement inaccessible ou qu'elle ait été déplacée de façon permanente à une autre adresse Web.</div>
+        <div id="sub-frame-error-details">Il se peut que la page Web à l'adresse <strong>https://chatgpt.com/backend-api/estuary/content?id=file_000000000b1871f482b23d2b59ae836c&amp;fn=service-worker%281%29.js&amp;cd=attachment&amp;ts=494969&amp;p=fs&amp;cid=1&amp;sig=77cdc3654069080eecc8ae632cee2d29b1d8b4e9e6f9ead7762610df271efaf5&amp;v=0</strong> soit temporairement inaccessible ou qu'elle ait été déplacée de façon permanente à une autre adresse Web.</div>
       </div>
     
   </div>
@@ -1538,4 +1538,4 @@ let showingDetails=false;let lastData=null;let dinoGameInitialized=false;functio
   </div>
 
 
-<script>var loadTimeDataRaw = {"details":"Détails","errorCode":"ERR_INVALID_RESPONSE","fontfamily":"'Segoe UI', Tahoma, sans-serif","fontfamilyMd":"'Segoe UI', Tahoma, sans-serif","fontsize":"75%","heading":{"msg":"Ce site est inaccessible"},"hideDetails":"Masquer les détails","iconClass":"icon-generic","isOfflineError":false,"language":"fr","suggestionsDetails":[],"suggestionsSummaryList":[],"summary":{"msg":"Il se peut que la page Web à l'adresse \u003Cstrong>https://chatgpt.com/backend-api/estuary/content?id=file_00000000621c71f5873a5130bb2244be&amp;fn=service-worker.js&amp;cd=attachment&amp;ts=494964&amp;p=fs&amp;cid=1&amp;sig=4328ef2834a2994e570b395a98c7255149259d91d741a5027c9a96f6204144bd&amp;v=0\u003C/strong> soit temporairement inaccessible ou qu'elle ait été déplacée de façon permanente à une autre adresse Web."},"textdirection":"ltr","title":"chatgpt.com"};</script></body></html>
+<script>var loadTimeDataRaw = {"details":"Détails","errorCode":"ERR_INVALID_RESPONSE","fontfamily":"'Segoe UI', Tahoma, sans-serif","fontfamilyMd":"'Segoe UI', Tahoma, sans-serif","fontsize":"75%","heading":{"msg":"Ce site est inaccessible"},"hideDetails":"Masquer les détails","iconClass":"icon-generic","isOfflineError":false,"language":"fr","suggestionsDetails":[],"suggestionsSummaryList":[],"summary":{"msg":"Il se peut que la page Web à l'adresse \u003Cstrong>https://chatgpt.com/backend-api/estuary/content?id=file_000000000b1871f482b23d2b59ae836c&amp;fn=service-worker%281%29.js&amp;cd=attachment&amp;ts=494969&amp;p=fs&amp;cid=1&amp;sig=77cdc3654069080eecc8ae632cee2d29b1d8b4e9e6f9ead7762610df271efaf5&amp;v=0\u003C/strong> soit temporairement inaccessible ou qu'elle ait été déplacée de façon permanente à une autre adresse Web."},"textdirection":"ltr","title":"chatgpt.com"};</script></body></html>
