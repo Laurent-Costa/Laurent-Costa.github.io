@@ -3,102 +3,142 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#171717">
-  <title>Laurent Costa — Carte virtuelle</title>
-  <meta name="description" content="Carte de visite virtuelle de Laurent Costa — développement commercial et solutions pour buralistes.">
+  <meta name="theme-color" content="#f6f1e8">
+  <meta name="description" content="Carte professionnelle de Laurent Costa — commercial terrain et développement pour buralistes.">
+  <meta property="og:title" content="Laurent Costa — Carte professionnelle">
+  <meta property="og:description" content="Commercial terrain & développement pour buralistes · vape adulte · outils numériques.">
+  <meta property="og:image" content="assets/social-preview.png">
+  <title>Laurent Costa — Carte professionnelle</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="assets/icon-192.png">
-  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="shell">
-    <section class="hero card">
-      <div class="topline">
-        <div class="avatar" aria-hidden="true">LC</div>
-        <button class="qr-mini" id="openQr" type="button" aria-label="Afficher mes QR codes">QR</button>
+  <main class="page">
+    <section class="hero-card card" aria-label="Présentation Laurent Costa">
+      <div class="top-row">
+        <div class="identity-mark" aria-hidden="true">LC</div>
+        <div class="top-copy">
+          <p class="eyebrow">Commercial terrain</p>
+          <p class="micro">Buralistes · Vape adulte · Outils numériques</p>
+        </div>
+        <button class="qr-top" id="openQrTop" type="button" aria-label="Afficher le QR code">QR</button>
       </div>
 
-      <p class="eyebrow">Carte de visite virtuelle</p>
       <h1>Laurent Costa</h1>
-      <p class="subtitle">Développement commercial & solutions pour buralistes</p>
-      <p class="intro">J’aide les buralistes à développer leurs ventes grâce à une approche terrain, pédagogique et structurée.</p>
+      <h2>Commercial terrain & développement pour buralistes</h2>
+      <p class="lead">J’aide les buralistes à développer leurs ventes avec une approche terrain, claire et directement applicable en point de vente.</p>
 
-      <div class="actions primary-actions" aria-label="Actions principales">
-        <a class="btn main" href="tel:+33631035574">Appeler</a>
-        <a class="btn" href="https://wa.me/33631035574">WhatsApp</a>
-        <a class="btn" href="mailto:lc13@free.fr?subject=Contact%20depuis%20votre%20carte%20virtuelle">E-mail</a>
+      <div class="action-grid" aria-label="Actions rapides">
+        <a class="btn btn-call" href="tel:+33631035574">Appeler</a>
+        <a class="btn btn-whatsapp" href="https://wa.me/33631035574">WhatsApp</a>
+        <a class="btn btn-dark" href="mailto:lc13@free.fr?subject=Contact%20depuis%20votre%20carte%20professionnelle">E-mail</a>
+        <a class="btn btn-light" href="https://www.linkedin.com/in/laurent-costa-b1b971406/" target="_blank" rel="noopener">LinkedIn</a>
+        <button class="btn btn-light" id="openQr" type="button">Afficher le QR</button>
+        <a class="btn btn-light" href="contact-laurent-costa.vcf" download>Ajouter aux contacts</a>
       </div>
 
-      <div class="actions secondary-actions" aria-label="Liens professionnels">
-        <a class="chip" href="https://www.linkedin.com/in/laurent-costa-b1b971406/" target="_blank" rel="noopener">LinkedIn</a>
-        <a class="chip" href="https://drive.google.com/drive/folders/1kGOX2A1lS9dal_LtMFKa498MFvhypLqH" target="_blank" rel="noopener">Mes applications</a>
-        <a class="chip" href="contact-laurent-costa.vcf" download>Ajouter aux contacts</a>
-      </div>
-    </section>
-
-    <section class="card proof">
-      <h2>Ce que j’apporte</h2>
-      <div class="grid">
-        <article>
-          <span class="num">01</span>
-          <h3>Commerce terrain</h3>
-          <p>Expérience directe en bureau de tabac : relation client, vente additionnelle, caisse, FDJ, PMU et contraintes du quotidien.</p>
-        </article>
-        <article>
-          <span class="num">02</span>
-          <h3>Vape adulte responsable</h3>
-          <p>Conseil adapté aux fumeurs adultes : bon matériel, bon taux de nicotine, bon accompagnement et discours éthique.</p>
-        </article>
-        <article>
-          <span class="num">03</span>
-          <h3>Outils numériques</h3>
-          <p>Création d’outils simples pour aider les buralistes à mieux calculer, contrôler et piloter leur activité.</p>
-        </article>
+      <div class="proof-inline" aria-label="Preuve commerciale">
+        <strong>+7 %</strong>
+        <span>Croissance observée du chiffre d’affaires global grâce au développement de secteurs complémentaires.</span>
       </div>
     </section>
 
-    <section class="card tools">
-      <h2>Mes outils</h2>
-      <a class="tool" href="https://drive.google.com/drive/folders/1kGOX2A1lS9dal_LtMFKa498MFvhypLqH" target="_blank" rel="noopener">
-        <strong>NicoPrepa</strong>
-        <span>Aide au calcul des préparations e-liquides.</span>
-      </a>
-      <a class="tool" href="https://drive.google.com/drive/folders/1kGOX2A1lS9dal_LtMFKa498MFvhypLqH" target="_blank" rel="noopener">
-        <strong>Calculateur de Marges</strong>
-        <span>Prix d’achat, prix de vente, TVA, marge et bénéfice.</span>
-      </a>
-      <a class="tool" href="https://drive.google.com/drive/folders/1kGOX2A1lS9dal_LtMFKa498MFvhypLqH" target="_blank" rel="noopener">
-        <strong>Contrôle Caisse</strong>
-        <span>Projet d’aide au contrôle PMU, FDJ, CB, espèces et banque.</span>
-      </a>
+    <section class="angle-card card-blue">
+      <p class="eyebrow gold">Mon angle</p>
+      <p>Terrain, relation client, chiffres et outils numériques&nbsp;: des actions commerciales simples, mesurables et utiles.</p>
     </section>
 
-    <section class="card contact">
-      <h2>Contact direct</h2>
-      <p><strong>Téléphone</strong><br><a href="tel:+33631035574">06 31 03 55 74</a></p>
-      <p><strong>E-mail</strong><br><a href="mailto:lc13@free.fr">lc13@free.fr</a></p>
-      <p><strong>LinkedIn</strong><br><a href="https://www.linkedin.com/in/laurent-costa-b1b971406/" target="_blank" rel="noopener">linkedin.com/in/laurent-costa-b1b971406</a></p>
-      <button class="btn wide" id="shareButton" type="button">Partager ma carte</button>
+    <section class="card compact-section" aria-label="Ce que j'apporte">
+      <div class="section-title">
+        <p class="eyebrow">Ce que j’apporte</p>
+        <h2>Une approche concrète, utile en point de vente</h2>
+      </div>
+      <div class="value-list">
+        <article>
+          <span>01</span>
+          <div>
+            <h3>Commerce terrain</h3>
+            <p>Accueil client, vente additionnelle, caisse, FDJ, PMU et contraintes du quotidien.</p>
+          </div>
+        </article>
+        <article>
+          <span>02</span>
+          <div>
+            <h3>Vape adulte responsable</h3>
+            <p>Conseil clair aux fumeurs adultes : bon matériel, bon taux de nicotine, accompagnement rassurant.</p>
+          </div>
+        </article>
+        <article>
+          <span>03</span>
+          <div>
+            <h3>Outils numériques</h3>
+            <p>Applications simples pour mieux calculer, contrôler, expliquer et piloter l’activité.</p>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <footer>
-      Laurent Costa · Commercial terrain & solutions digitales pour buralistes
+    <section class="card tools-card" aria-label="Applications présentées">
+      <div class="section-title">
+        <p class="eyebrow">Mes outils terrain</p>
+        <h2>Des applications pensées à partir du réel</h2>
+      </div>
+      <div class="tools-list">
+        <a href="https://drive.google.com/drive/folders/1kGOX2A1lS9dal_LtMFKa498MFvhypLqH" target="_blank" rel="noopener">
+          <b>NicoPrepa</b>
+          <span>Préparations e-liquides et coût réel par 10 ml.</span>
+        </a>
+        <a href="https://drive.google.com/drive/folders/1kGOX2A1lS9dal_LtMFKa498MFvhypLqH" target="_blank" rel="noopener">
+          <b>Calculateur de Marges</b>
+          <span>Prix d’achat, prix de vente, TVA, coefficient, marge et bénéfice.</span>
+        </a>
+        <a href="https://drive.google.com/drive/folders/1kGOX2A1lS9dal_LtMFKa498MFvhypLqH" target="_blank" rel="noopener">
+          <b>Contrôle Caisse</b>
+          <span>Projet d’aide PMU, FDJ, CB, espèces et banque.</span>
+        </a>
+      </div>
+      <a class="btn btn-dark btn-wide" href="https://drive.google.com/drive/folders/1kGOX2A1lS9dal_LtMFKa498MFvhypLqH" target="_blank" rel="noopener">Voir mes applications</a>
+    </section>
+
+    <section class="contact-card card-blue" aria-label="Contact final">
+      <h2>Échanger avec moi</h2>
+      <p>Un appel court suffit pour voir si mon expérience terrain, mes outils ou mon approche commerciale peuvent être utiles.</p>
+      <div class="contact-actions">
+        <a class="btn btn-call" href="tel:+33631035574">Appeler maintenant</a>
+        <a class="btn btn-outline" href="https://wa.me/33631035574">WhatsApp</a>
+        <a class="btn btn-outline" href="mailto:lc13@free.fr">E-mail</a>
+      </div>
+      <div class="contact-details">
+        <a href="tel:+33631035574">06 31 03 55 74</a>
+        <a href="mailto:lc13@free.fr">lc13@free.fr</a>
+        <a href="https://www.linkedin.com/in/laurent-costa-b1b971406/" target="_blank" rel="noopener">Profil LinkedIn</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      Laurent Costa · Commercial terrain & développement pour buralistes
     </footer>
   </main>
 
   <dialog class="qr-dialog" id="qrDialog">
     <form method="dialog" class="qr-panel">
       <button class="close" aria-label="Fermer">×</button>
+      <p class="eyebrow">QR codes</p>
       <h2>Scanner ou partager</h2>
-      <div class="qr-tabs" role="tablist" aria-label="Choix du QR code">
-        <button type="button" class="tab active" data-target="qr-contact">Contact</button>
+      <div class="tabs" role="tablist" aria-label="Choix du QR code">
+        <button type="button" class="tab active" data-target="qr-card">Carte</button>
+        <button type="button" class="tab" data-target="qr-contact">Contact</button>
         <button type="button" class="tab" data-target="qr-linkedin">LinkedIn</button>
         <button type="button" class="tab" data-target="qr-apps">Applications</button>
-        <button type="button" class="tab" data-target="qr-card">Carte</button>
       </div>
-      <div class="qr-view active" id="qr-contact">
-        <img src="assets/qr_ajouter_contact.png" alt="QR code pour ajouter Laurent Costa aux contacts">
+      <div class="qr-view active" id="qr-card">
+        <img src="assets/qr_carte_finale.png" alt="QR code de la carte professionnelle Laurent Costa">
+        <p>Ouvre la carte en ligne : laurent-costa.github.io</p>
+      </div>
+      <div class="qr-view" id="qr-contact">
+        <img src="assets/qr_contact.png" alt="QR code pour ajouter Laurent Costa aux contacts">
         <p>À scanner pour enregistrer directement mes coordonnées.</p>
       </div>
       <div class="qr-view" id="qr-linkedin">
@@ -109,10 +149,7 @@
         <img src="assets/qr_applications.png" alt="QR code vers les applications de Laurent Costa">
         <p>À scanner pour accéder à mes applications partagées.</p>
       </div>
-      <div class="qr-view" id="qr-card">
-        <img src="assets/qr_carte_a_generer.png" alt="QR code de la carte à générer après hébergement">
-        <p>Ce QR sera finalisé dès que la carte aura une adresse en ligne.</p>
-      </div>
+      <a class="btn btn-dark btn-wide" href="qr-codes.html">Page QR codes imprimable</a>
     </form>
   </dialog>
 
